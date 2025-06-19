@@ -42,6 +42,6 @@ if (completedTasks.length > 0) {
     console.log(`- ${task.title} [${task.status}]`);
   });
 } else {
-  console.log("💪 No tasks completed, let's get to work!");
+  console.log("No tasks completed, let's get to work!");
 }
 
