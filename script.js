@@ -1,14 +1,20 @@
-// Helper function to get a valid status input
 function getValidStatus(taskNumber) {
   let status;
   const validStatuses = ["todo", "doing", "done"];
 
   do {
     status = prompt(`Enter the status for Task ${taskNumber} (todo, doing, done):`).toLowerCase();
+
+    if (!validStatuses.includes(status)) {
+      alert(`❌ Invalid status: "${status}". Please enter "todo", "doing", or "done".`);
+      console.log(`❌ Invalid status entered: "${status}"`);
+    }
+
   } while (!validStatuses.includes(status));
 
   return status;
 }
+
 
 // Prompt for task details
 let task1 = {
