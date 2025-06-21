@@ -1,49 +1,60 @@
-# JSL01 Challenge – Solution Code
+Kanban — Your Productivity App
 
-## Overview
+📌 Project Description
 
-This repository provides the **official solution code for the JSL01 challenge**. It is intended to support students who have completed the challenge and need a reference for improving their work before progressing to **JSL02**.
+Kanban is a responsive and user-friendly to-do list application designed to help users organize their daily tasks efficiently. Built entirely using vanilla JavaScript, HTML, and CSS, this project emphasizes DOM manipulation, local storage, and interactive UI elements. The app allows users to add, update, delete, and categorize tasks as "To Do", "Doing", or "Done".
 
-Students should use this solution to:
+🚀 Technologies Used
 
-- Review and reflect on their own implementation
-- Identify areas of improvement in their code (naming, logic, layout, responsiveness, etc.)
-- Apply corrections and best practices before continuing with the next challenge in the series
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Local Storage API
 
-## Structure
+✨ Features
 
-The project includes:
+- Add new tasks with a custom status (`todo`, `doing`, or `done`)
+- Edit and delete existing tasks
+- Status validation with error prompts for incorrect entries
+- Responsive layout for both desktop and mobile
+- Persistent data storage using the browser's localStorage
+- Clean and minimal UI design
 
-- ✅ A fully working solution to the JSL01 challenge
-- 📁 Organised files including `index.html`, `styles.css`, and assets forlder
-- 🎯 Clean, semantic HTML and well-commented code for ease of understanding
-- 📐 Responsive layout and accessible design considerations
+🛠️ Setup Instructions
 
-## How to Use This Solution
+To run this project locally, follow these simple steps:
 
-1. **Compare** your original solution to the files in this repository.
-2. **Make notes** of differences, especially where your solution didn’t work or used less efficient logic.
-3. **Update your project** using this solution as a reference—not just a copy.
-4. Once confident with your corrections, **move on to the JSL02 challenge**.
+1. Clone the repository:
+   ```bash
+   https://github.com/Reneva-dev/RENNEW25098_PTO2502_GroupA_Reneva_Newman_JSL02.git
 
-## Next Steps
+   Navigate to the project folder:
 
-After updating your JSL01 project with improvements based on this solution:
+bash
+Copy
+Edit
+cd taskmaster
+Open the index.html file in your browser:
 
-➡️ Proceed to **JSL02**, where you'll begin a **new repository**.
+You can double-click it
 
-- Start by copying your **corrected `index.html` and `styles.css` files** from JSL01 into the new JSL02 repo.
-- Then, begin adding the **new JavaScript functionality** required in the JSL02 challenge.
-- This ensures your JSL02 project builds on clean, working foundations from JSL01.
+Or run it using Live Server (if using VS Code)
 
----
+There is no installation required. The app runs entirely in the browser.
 
-### 💡 Tip for Students
+💡 Usage Example
+Type your task into the input field.
 
-Don’t just copy-paste the solution. Try to understand **why** each part of the code works. The goal is to learn how to structure clean, maintainable, and functional JavaScript code.
+Select the task status (todo, doing, or done) when prompted.
 
----
+Click Add Task to display it in the list.
 
-## License
+Use Edit or Delete buttons to manage each task.
 
-This solution code is provided for **educational use only**.
+Invalid Status Handling:
+If you enter a status other than todo, doing, or done, the app will alert you with a validation message and prompt you to enter a valid status.
+
+🎮 User Interaction Instructions
+All task interactions are done through buttons and prompt dialogs.
+
+
