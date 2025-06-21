@@ -19,7 +19,7 @@ function getValidStatus(taskNumber) {
       console.log(`❌ Invalid status entered: "${status}"`);
     }
 
-  } while (!validStatuses.includes(status));
+  } while (!validStatuses.includes(status)); // Repeat until input is valid
 
   return status;
 }
