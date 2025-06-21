@@ -2,7 +2,7 @@ Kanban — Your Productivity App
 
 📌 Project Description
 
-TaskMaster is a responsive and user-friendly to-do list application designed to help users organize their daily tasks efficiently. Built entirely using vanilla JavaScript, HTML, and CSS, this project emphasizes DOM manipulation, local storage, and interactive UI elements. The app allows users to add, update, delete, and categorize tasks as "To Do", "Doing", or "Done".
+Kanban is a responsive and user-friendly to-do list application designed to help users organize their daily tasks efficiently. Built entirely using vanilla JavaScript, HTML, and CSS, this project emphasizes DOM manipulation, local storage, and interactive UI elements. The app allows users to add, update, delete, and categorize tasks as "To Do", "Doing", or "Done".
 
 🚀 Technologies Used
 
@@ -26,7 +26,7 @@ To run this project locally, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/taskmaster.git
+   https://github.com/Reneva-dev/RENNEW25098_PTO2502_GroupA_Reneva_Newman_JSL02.git
 
    Navigate to the project folder:
 
