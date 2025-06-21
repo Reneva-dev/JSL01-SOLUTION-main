@@ -38,10 +38,10 @@ let task2 = {
   status: getValidStatus(2)
 };
 
-// Store tasks in an array
+
 const tasks = [task1, task2];
 
-// Filter tasks marked as "done"
+
 const completedTasks = tasks.filter(task => task.status === "done");
 
 // Display results in the console
