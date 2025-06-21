@@ -1,3 +1,12 @@
+/**
+ * Prompts the user to enter a valid status for a task.
+ * Accepts only "todo", "doing", or "done" (only accepts lowercase despite user input style).
+ * Repeats until a valid input is received.
+ *
+ * @param {number} taskNumber - The task number (for display in the prompt)
+ * @returns {string} - A valid task status
+ */
+
 function getValidStatus(taskNumber) {
   let status;
   const validStatuses = ["todo", "doing", "done"];
